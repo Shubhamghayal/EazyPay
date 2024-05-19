@@ -1,7 +1,7 @@
 // backend/db.js
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/paytm")
+mongoose.connect("mongodb+srv://admin:1234567890@cluster0.jhdxqmj.mongodb.net/EazyPay")
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
